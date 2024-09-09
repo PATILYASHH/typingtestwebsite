@@ -1,0 +1,43 @@
+body {
+    background-color: #f5f7fa;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+p, label, input, textarea {
+    color: #34495e;
+}
+
+#textWrapper {
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+    overflow-wrap: break-word; /* Ensures text wraps properly */
+}
+
+#typingArea {
+    font-size: 1.2rem;
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    padding: 15px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#stats {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#certificateCanvas {
+    display: none;
+}
